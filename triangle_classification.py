@@ -81,6 +81,8 @@ if __name__ == '__main__':
     runClassifyTriangle(1, 1, 1)
     runClassifyTriangle(10, 10, 10)
     runClassifyTriangle(3, 4, 5)
+
+    # test to check if not triangle
     runClassifyTriangle(2, 2, 50)
     unittest.main(exit=False)  # this runs all of the tests - use this line if running from Spyder
     # unittest.main(exit=True) # this runs all of the tests - use this line if running from the command line
